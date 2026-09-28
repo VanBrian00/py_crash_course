@@ -1,0 +1,17 @@
+List memungkinkan kita menyimpan sekumpulan informasi di satu tempat, 0 hingaa jutaan. Misalnya Variabel hanya bisa 1, sedangkan list bisa lebih dari 1.
+
+list menghubungkan banyak konsep penting dalam pemograman.
+
+Jadi list adalah tempat menyimpan item item yang tersusun dalam urutan tertentu, dan item tersebut tidak harus memiliki keterkaitan satu sama lain.
+
+kalau menggunakan bahasa inggris sangat disarankan gunakan bentuk jamak, seperti books, names, atau digits.
+
+cara tulisnya yaitu :
+
+nama_list = ['item_1', 'item_2', ..., 'n']
+
+print(nama_list) ==> untuk menampilkan isi list!
+
+hasilnya ==> ['item_1', 'item_2', ..., 'n']
+
+item dalam list disebut elemen

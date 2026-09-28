@@ -1,0 +1,56 @@
+1. Indah lebih baik dari pada jelek.
+	Usahakan menghasilkan kode python yang indah.
+
+2. Eksplisit lebih baik daripada implisit.
+	Eksplisit itu artinya jelas, tidak ada maksud yang disembunyikan, tidak bergantung pada tebak tebakan, dan tidak melakukan keajaiban di balik layar. Contoh, potongan kode A dan B yang terhubung tidak terpisah jauh beberapa baris, melainkan dekat.
+
+3. Sederhana lebih baik daripada kompleks.
+	Kode yang sederhana lebih mudah dibaca, dirawat dan dikembangkan dari pada kode yang kompleks. Ini berlaku jika output/ hasil yang ada itu sama.
+
+4. Kompleks lebih baik daripada rumit.
+	Carilah solusi masalah yang paling sederhana dan dapat berjalan untuk menghindari menulis kode yang rumit.
+
+5. Datar lebih baik dari pada bersarang.
+	Jika bisa ditulis tanpa bersarang(nested), gunakan itu. Semakin bersarang semakin rumit kodenya, misal 'z' ada di dalam 'c', 'c' di dalam 'b' dan 'b' di dalam 'a'.
+
+6. Jarang/renggang lebih baik dari pada padat.
+	Jangan terlalu padat ketika menulis kode, yang 1 baris jika bisa jadi lebih dari 1 baris, buatlah jadi lebih dari 1 baris, yang bisa dikasih jarak dengan whitespace, berilah jarak.
+
+7. Keterbacaan itu penting.
+	Tulislah kode dan komen yang dapat dengan mudah dibaca oleh semua orang.
+
+8. Kasus-kasus khusus tidak cukup spesial untuk melanggar aturan.
+	jangan melanggar aturan menulis kode hanya untuk sebuah kasus khusus. tetap patuhi aturan.
+
+9. Meskipun pada akhirnya kepraktisan mengalahkan kemurnian.
+	Ideal itu bagus, aturan itu bagusm dan desain yang murni itu bagus, tapi jika membuat kehidupan kita jadi sulit carilah yang praktis. Jadi jika bisa ditulis secara singkat pilihlah itu!
+
+10. Kesalahan tidak boleh dibiarkan berlalu secara diam-diam.
+	Jika ada kesalahan benerin!
+
+11. Kecuali jika secara eksplisit dibungkam.
+	Jika error/ kesalahan tidak terlalu bermasalah tidak apa apa dibiarkan, tetapi harus dapat dimengerti progammer lain kenapa di biarkan.
+
+12. Dalam menghadapi ambiguitas, tolak godaan untuk menebak.
+	Jangan tebak tebakan, tapi cari tahu secara detail.
+
+13. Harus ada satu—dan sebaiknya hanya satu—cara yang jelas untuk melakukannya.
+	Kode kode program mu harus masuk akal bagi programmer lain.
+
+14. Meskipun cara itu mungkin tidak jelas pada awalnya kecuali Anda orang Belanda.
+	Kamu gak perlu langsung tahu semua hal di awal awal melihat. Pelan pelan aja!
+
+15. Sekarang lebih baik daripada tidak sama sekali.
+	Lebih baik kita mulai sekarang meski sedikit daripada kita tidak mulai sama sekali.
+
+16. Meskipun tidak sama sekali sering lebih baik daripada sekarang juga.
+	jangan buru buru dalam melakukan sesuatu, jadi kesimpulannya : buru buru < Tidak melakukan apa apa < melakukan pelan pelan sekarang.
+
+17. Jika implementasinya sulit dijelaskan, itu ide yang buruk.
+	Jika perlu waktu lama untuk menjelaskan kode, itu artinya kodenya salah.
+
+18. Jika implementasinya mudah dijelaskan, itu mungkin ide yang bagus.
+	Kebalikan dari nomor 17.
+
+19. Namespaces adalah ide yang sangat hebat — mari gunakan lebih banyak lagi!
+	Jika ada banyak yang punya nama batu orang-orang bisa jadi pusing, tapi karena ada kota, negara dll jadi mudah dibeda beda kan.

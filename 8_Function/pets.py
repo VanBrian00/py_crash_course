@@ -5,3 +5,6 @@ def describe_pet(animal_type, pet_name):
 
 describe_pet("cat", "nyon nyon")
 describe_pet("dog", "Bambang")
+
+# menggunakan argumen keyword, bedakan sendiri dengan yang di atas!
+describe_pet(pet_name="gong",animal_type="bird")

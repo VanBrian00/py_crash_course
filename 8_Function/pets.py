@@ -18,3 +18,11 @@ def describe_pet(pet_name, animal_type="dog"):
 describe_pet(pet_name="Fuji")
 describe_pet("toyo")
 describe_pet("suzu","cat")
+
+# hasil dari kode di bawah ini error karena butuh argumen buat isi parameter pet name.
+# parameter animal_type sudah ada argumen default jadi gpp.
+# describe_pet()
+
+# di bawah ini juga bakal error
+# describe_pet("toyo", "Pig", "Black")
+# fungsinya hanya punya dua parameter, jadi 3 argumen gak bisa diberikan!

@@ -17,3 +17,11 @@ def make_shirt(size, text=""):
 		print(f"Baju yang anda pesan ukuran {size}, dengan tulisan '{text}'")
 
 make_shirt("Besar")
+
+def describe_city(name, country='Iceland'):
+	"""Tentang kota"""
+	print(f"{name} is in {country}.")
+
+describe_city('Kópavogur')
+describe_city('Ísafjörður')
+describe_city('Jakarta', 'Indonesia')

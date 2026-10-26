@@ -12,21 +12,22 @@ print(city_country('tokyo', 'japan'))
 daftar_album = {}
 
 print("")
-def make_album(title='', artist='', jumlah_lagu=''):
+def make_album(title='', artist='', jumlah_lagu=None):
 	"""Album"""
 	i = f"Album {len(daftar_album) + 1}"
 	if title != '' and artist != '':
-		if jumlah_lagu == '':
-			daftar_album[i] = {
-			'Judul': title.title(),
-			'artis': artist.title(),
-		}	
-		else:
+		if jumlah_lagu is not None:
 			daftar_album[i] = {
 				'Judul': title.title(),
 				'artis': artist.title(),
 				'total-lagu': f"{jumlah_lagu} lagu",
+			}	
+		else:
+			daftar_album[i] = {
+				'Judul': title.title(),
+				'artis': artist.title(),
 			}
+			
 		return daftar_album[i]
 
 print(make_album('Covers Collection Vol.18', 'Shania Yan', '52'))

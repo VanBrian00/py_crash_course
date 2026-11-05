@@ -21,6 +21,10 @@ uprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 # list untuk menampung model desain yang sudah selesai.
 completed_models = []
 
-print_models(uprinted_designs, completed_models)
+# print_models(uprinted_designs, completed_models)
+# tambahan [:] di bawah artinya unprinted yang dikirim salinannya.
+# Jika ingin yang asli di kirim hapus [:] seperti di line 24.
+# pakai salinan hanya saat diperlukan saja!
+print_models(uprinted_designs[:], completed_models)
 show_completed_models(uprinted_designs)
 show_completed_models(completed_models)

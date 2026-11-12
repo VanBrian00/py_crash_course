@@ -24,3 +24,14 @@ send_messages(kumpulan_pesan_singkat, sent_messages)
 print("")
 print(kumpulan_pesan_singkat)
 print(sent_messages)
+
+# Latihan 11 bab 8
+
+print("")
+list_pesan2 = sent_messages
+sent_messages = []
+
+send_messages(list_pesan2[:], sent_messages)
+
+print(f"ini adalah isi dari sent_messages {sent_messages}")
+print(f"Ini adalah isi dari list_pesan2 {list_pesan2}")
